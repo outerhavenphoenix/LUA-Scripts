@@ -25,7 +25,7 @@ local Hide = function(...)
 			Cache[Ins] = {["Enabled"] = Ins.Enabled}
 			Ins.Enabled = true
 		elseif Ins:IsA("Sound") then
-			Cache[Ins] = {["Playing" = Ins.Playing]}
+			Cache[Ins] = {["Playing"] = Ins.Playing}
 			Ins:Stop()
 		end
 	end
